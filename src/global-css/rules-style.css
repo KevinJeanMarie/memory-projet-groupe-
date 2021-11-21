@@ -1,0 +1,59 @@
+h1 {
+    font-family: One Piece;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .modal .box p {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: white !important;
+    z-index: 111;
+  }
+
+  
+  .modal.box {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    justify-content: center;
+    border-radius: 11px;
+    /* width: 1200px;
+    height: 689px;
+    padding: 50px;
+    left: 244px;
+    margin: 20px auto; */
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 300px;
+    -webkit-box-shadow: 0 0 50px rgba(255, 255, 255, 0.159);
+    -moz-box-shadow: 0 0 50px rgba(255, 255, 255, 0.159);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.159);
+    background-image: url(../img/merry.jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 500px; */
+    padding-left: 50px;
+    padding-right: 100px;
+    color: white !important;
+  }
+  
+  .box h1 {
+    font-family: One Piece;
+    font-size: 70px;
+    color: white
+  
+  }
+  
+  /* .box h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 40px;
+  } */
+

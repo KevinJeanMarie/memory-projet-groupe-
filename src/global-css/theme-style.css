@@ -1,0 +1,9 @@
+.form-select{
+    width: 150px;
+}
+
+.custom-select{
+    font-family: One piece;
+    src: url(/src/font/one-piece-font.ttf);
+    
+}

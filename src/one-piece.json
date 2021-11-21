@@ -1,0 +1,49 @@
+[{
+    "name" : "Luffy",
+    "imageRecto" : "luffy",
+    "back" : "onePiece"
+}, {
+    "name" : "Zoro" ,
+    "imageRecto" : "zoro",
+    "back" : "onePiece"
+},  {
+    "name" : "Sanji",
+    "imageRecto" : "sanji",
+    "back" : "onePiece"
+},  {
+    "name" : "Usopp" ,
+    "imageRecto" : "usopp",
+    "back" : "onePiece"
+}, {
+    "name" : "Nico Robin",
+    "imageRecto" : "nicoRobin",
+    "back" : "onePiece"
+},  {
+    "name" : "Chopper",
+    "imageRecto" : "chopper",
+    "back" : "onePiece"
+},  {
+    "name" : "Ace",
+    "imageRecto" : "ace",
+    "back" : "onePiece"
+},  {
+    "name" : "Barbe Blanche",
+    "imageRecto" : "barbeBlanche",
+    "back" : "onePiece"
+},  {
+    "name" : "Barbe Noire",
+    "imageRecto" : "barbeNoire",
+    "back" : "onePiece"
+},  {
+    "name" : "Baggy",
+    "imageRecto" : "baggy",
+    "back" : "onePiece"
+},  {
+    "name" : "Shanks",
+    "imageRecto" : "shanks",
+    "back" : "onePiece"
+}, {
+    "name" : "Gol D. Roger",
+    "imageRecto" : "golDRoger",
+    "back" : "onePiece"
+}]

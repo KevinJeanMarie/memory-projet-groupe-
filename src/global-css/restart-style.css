@@ -1,0 +1,20 @@
+/* STYLE DU BOUTON RESTART */
+
+.Rbutton button {
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 230, 94, 0.925);
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border-color: white;
+    font-size: 20px;
+    font-family: One piece;
+    src: url(/src/font/one-piece-font.ttf)
+  }
+  
+  .Rbutton {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  

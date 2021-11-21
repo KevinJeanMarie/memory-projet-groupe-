@@ -1,0 +1,105 @@
+/* STYLE DES CARTES */
+
+.characterCard {
+    width: 100%;
+    height: 250px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.card-body{
+    margin: 0;
+    padding: 0 !important;
+}
+
+.card-front{
+    background-color: #DEDDD4;
+}
+
+.card-body{
+    background-color: #DEDDD4;
+    border-radius: 10px;
+}
+
+h4{
+    font-family: One Piece;
+    text-align: center;
+    color: #935127;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-front, .card-back{
+    width: 100px;
+    height: 170.72px !important;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* FLIP CARDS */
+
+.container-op{
+    width: 110px;
+    height: 170.72px;
+    perspective: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-op {
+    width: 100px;
+    height: 100%;
+    position: relative;
+     /* transform: rotateY(0deg) !important; */
+    transform: rotate3d(0, 1, 0, 0deg);
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+}
+
+.flip {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.recto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+     /* transform: rotateY(180deg) !important; */
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.verso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.card-op .is-flipped[disabled] {
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  
+.is-flipped {
+    pointer-events: none;
+    /* transform: rotateY(180deg) !important; */
+    transform: rotate3d(0, 1, 0, 180deg) !important;
+}

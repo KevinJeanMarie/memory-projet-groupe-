@@ -1,0 +1,48 @@
+.section {
+    background: url(/src/img/RoiDesPirates.png) no-repeat; 
+    background-size: cover;
+    height: 400px;
+    width : 600px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+
+.section1 {
+  background: url(/src/img/CharlotteLinLin.jpg) no-repeat; 
+  background-size: cover;
+  height: 400px;
+  width : 600px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px grey;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);   
+}
+
+
+.sect {
+  background-color:white;
+  opacity: 0.6;
+  height: 400px;
+  width : 600px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px grey;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+  
+}
+
+.sect h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+} 
+
+.play{
+  z-index: 111;
+  bottom: 10px;
+}

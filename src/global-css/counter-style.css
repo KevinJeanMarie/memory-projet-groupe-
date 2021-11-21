@@ -1,0 +1,24 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: One piece;
+    src: url(/src/font/one-piece-font.ttf);
+    font-size: 30px;
+    text-align: center;
+    margin-left: -60px;
+    padding-bottom: 20px;
+  }
+  
+  .counterMargin {
+    margin: 10px 10px;
+  }
+  
+  .marginScorePlayer {
+    margin-left: 50px;
+  }
+  
+  .marginScoreComputer {
+    margin-right: 50px;
+  }
